@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(242, 138, 158);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    transition: 0.5s;
+    
+    /* clase de toggleBlanco  */
+    &.toggleBlanco{
+        background-color: aliceblue;
+        background-image: url(../img/spaiderman1.gif);
+    }
+}
+
+
+
+
+#toggle{
+    height: 160px;
+    width: 320px;
+    background-color: rgb(245, 102, 131);
+    box-shadow: inset 0 8px 60px rgb(0, 0, 0, 0.1),
+                inset 0 8px 8px rgb(0, 0, 0, 0.1),
+                inset 0 -4px 4px rgb(0, 0, 0, 0.1);
+    position: relative;
+    border: none;
+    cursor: pointer;
+    appearance: none;
+    border-radius: 160px;
+    &.toggleBlanco{
+        background-color: aliceblue;
+        box-shadow: inset 0 8px 60px rgb(0, 0, 0, 0.1),
+        inset 0 8px 8px rgb(0, 0, 0, 0.1),
+        inset 0 -4px 4px rgb(0, 0, 0, 0.1);
+    .circulo{
+        left: 160px;
+        box-shadow: inset 0 8px 60px rgb(0, 0, 0, 0.1),
+                inset 0 8px 8px rgba(200, 193, 193, 0.1),
+                inset 0 -4px 4px rgba(229, 213, 213, 0.1);
+    
+    }
+
+    }
+    }
+
+.circulo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 160px;
+    height: 160px;
+    content: "";
+    background-color: rgb(242, 159, 196);
+    border-radius: 50vh;
+    transform: scale(0.9);
+    transition: 0.5s;
+    box-shadow: 0 8px 60px rgb(0, 0, 0, 0.1),
+    inset 0 8px 8px rgb(0, 0, 0, 0.1),
+    inset 0 -4px 4px rgb(0, 0, 0, 0.1);
+}
