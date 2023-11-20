@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.pilicita{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(192, 129, 252);
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+}
+.menuBarra{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(4);
+    cursor: pointer;
+    
+}
+
+.menuBarra span{
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: black;
+    margin-top: 6px;
+    transition: all 600ms ;
+    transform-origin: 0px 100% ;
+}
+.menuBarra :hover{
+    background-color: rgb(156, 119, 191);
+}
+
+.fila1Animacion{
+    transform: rotate(45deg) translate(-2px, 1px);
+}
+
+.fila3Animacion{
+    transform: rotate(-45deg) translate(-4px, 2px);
+}
+
+.pilicita:hover{
+    background-color: rgb(216, 169, 243);
+}
+
+.fila2Animacion{
+    opacity: 0;
+    margin-left:-35px ;
+}
