@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background: rgb(83, 200, 220, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10em 15em;
+}
+
+.pepee{
+    width: 90%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.pepe{
+    width: 50%;
+    height: 15em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.pepe #mensaje{
+    font-size: 2.2em;
+    color: red;
+}
+
+#cuentaRegresiva{
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+}
+
+#cuentaRegresiva .dia{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#cuentaRegresiva .dia p{
+    margin-top: 10px;
+    color: white;
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+.op{
+    box-shadow: 0 0 1em rgb(255, 255, 255);
+    padding: .5em .8em;
+    border-radius: 5em;
+    color: white;
+    font-size: 2em;
+}
+
+.buttom button{
+    padding: 1em 2em;
+    background: red;
+    border: 0;
+    color: white;
+    font-weight: 600;
+    border-radius: 2em;
+    cursor: pointer;
+}
+
+.buttom button.white{
+    padding: 1em 2em;
+    background: rgb(255, 255, 255);
+    border: 0;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    border-radius: 2em;
+    cursor: pointer;
+}
+
+.buttom button:hover{
+    background: rgba(190, 190, 190, 0.692);
+    color: black;
+}
+.papaNoelOff{
+    width: 850px;
+    height: 600px;
+    background-image: url(./../img/papaNoel___22655d029a9a448___.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.papaNoelOff.on{
+    width: 850px;
+    height: 600px;
+    background-image: url(./../img/papaNoel___88655d029d6cf24___.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}

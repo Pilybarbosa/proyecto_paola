@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Proyecto 8 - Navidad</title>
+</head>
+<body>
+    <div class="pepee">
+        <div class="pepe">
+            <div id="mensaje"></div>
+
+            <div  id="cuentaRegresiva">
+                <div  class="dia">
+                    <div class="op" id="dia"></div>
+                    <h2>D</h2>
+                </div>
+                
+                <div class="dia">
+                    <div class="op" id="hora"></div>
+                    <h2>H</h2>
+                </div>
+                
+                <div class="dia">
+                    <div class="op" id="minutos"></div>
+                    <h2>M</h2>
+                </div>
+                
+                <div class="dia">
+                    <div class="op" id="segundo"></div>
+                    <h2>S</h2>
+                </div>
+            </div>
+            
+            <div class="buttom">
+                <button id="play" onclick="song(1)"> Play</button>
+                <button id="pausa" onclick="song(2)">Pausa</button>
+            </div>
+        </div>
+
+        <div id="papaNoelOff" class="papaNoelOff">
+
+        </div>
+    </div>
+    
+    <script src="./assets/js/Script.js"></script>
+</body>
+</html>
